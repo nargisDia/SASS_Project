@@ -1,0 +1,17 @@
+@mixin flexCenter($nColor){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: $nColor;
+}
+
+#cta{
+    @include flexCenter(aqua);
+    
+}
+
+#cta2{
+     @include flexCenter(#9c88ff);
+   
+}
